@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>我的个人博客</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+    .post {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+    .post h2 {
+      color: #2c3e50;
+    }
+    .post p {
+      color: #555;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>欢迎来到我的博客</h1>
+  <nav>
+    <a href="#">主页</a>
+    <a href="#">关于我</a>
+    <a href="#">联系</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="post">
+    <h2>第一篇文章：搭建个人博客</h2>
+    <p>今天我使用 GitHub Pages 成功搭建了自己的个人博客！以后我会在这里分享学习笔记、技术文章和生活点滴。</p>
+  </div>
+  
+  <div class="post">
+    <h2>第二篇文章：Linux 实训报告自动生成系统</h2>
+    <p>我开发了一个基于 FastAPI + Streamlit 的系统，可以自动生成职业教育 Linux 实训报告，还支持导出 Word 文档。</p>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 我的名字 | 由 GitHub Pages 强力驱动
+</footer>
+
+</body>
+</html>
